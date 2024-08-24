@@ -9,7 +9,7 @@ f = sum(grades[4])/ len(grades[4])
 cor = sorted(students)
 l = {}
 l.update({cor[0]:a,cor[1]:b,cor[2]:c,cor[3]:d,cor[4]:f})
-print(l['Johnny'])
+print(l)
 
 
 
@@ -22,5 +22,5 @@ print(l['Johnny'])
 
 
 
-# l = {cor[0]:a,cor[1]:b,cor[2]:c,cor[3]:d,cor[4]:f} еще такой вариант
-# print(l)
+# k = {cor[0]:a,cor[1]:b,cor[2]:c,cor[3]:d,cor[4]:f}
+# print(k)
